@@ -1,0 +1,35 @@
+{
+  "name": "magix-transform-jsx",
+  "version": "1.0.0",
+  "description": "将jsx转换到magix的虚拟dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thx/magix-transform-jsx.git"
+  },
+  "dependencies": {
+    "@babel/types": "^7.0.0-beta.44",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-core": "^6.26.0",
+    "babel-generator": "^6.26.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0",
+    "esutils": "^2.0.2"
+  },
+  "keywords": [
+    "jsx",
+    "magix"
+  ],
+  "author": "weikang.zhuwk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thx/magix-transform-jsx/issues"
+  },
+  "homepage": "https://github.com/thx/magix-transform-jsx#readme"
+}
