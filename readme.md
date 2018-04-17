@@ -79,9 +79,6 @@ module: {
 使用api转换
 
 ```
-let transform = require('magix-transform-jsx')
-
-transform.parase('')
-transform.generate('')
-
+let JSX = require('magix-transform-jsx')
+let result = JSX.transform('xxxxxx').code
 ```
